@@ -10,7 +10,7 @@
 
 #include "fb.h"
 #include "fb_img.h"
-#include "w3mimg.h"
+#include "../w3mimg.h"
 
 static int
 w3mfb_init(w3mimg_op * self)

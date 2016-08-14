@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include "config.h"
 #include "fb.h"
 #include "fb_img.h"
 

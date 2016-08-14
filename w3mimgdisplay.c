@@ -5,7 +5,6 @@
 #include <string.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include "config.h"
 #include "w3mimg.h"
 
 w3mimg_op *w_op;
@@ -38,7 +37,7 @@ main(int argc, char **argv)
 #endif
     GetOption(argc, argv);
     if (!defined_debug)
-	freopen(DEV_NULL_PATH, "w", stderr);
+	freopen("/dev/null", "w", stderr);
 
 #ifdef W3MIMGDISPLAY_SETUID
     /* 

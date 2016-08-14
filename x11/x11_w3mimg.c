@@ -3,13 +3,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "config.h"
 
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <Imlib2.h>
 
-#include "w3mimg.h"
+#include "../w3mimg.h"
 
 #define OFFSET_X	2
 #define OFFSET_Y	2
