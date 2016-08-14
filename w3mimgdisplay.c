@@ -6,7 +6,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include "config.h"
-#include "w3mimg/w3mimg.h"
+#include "w3mimg.h"
 
 w3mimg_op *w_op;
 static char *background = NULL;
